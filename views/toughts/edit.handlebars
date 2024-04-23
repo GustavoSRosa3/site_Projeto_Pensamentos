@@ -1,0 +1,11 @@
+<div class="tought-form-container">
+    <a href="/toughts/dashboard">Voltar</a>
+    <h1>Editando um pensamento</h1>
+    <form action="/toughts/edit" method="POST">
+    <div class="form-control">
+        <label for="tittle">Título:</label>
+        <input type="text" name="tittle" placeholder="Digite o título" value="{{toughts.tittle}}">
+    </div>
+    <input type="submit" value="Editar Pensamento">
+    </form>
+</div>
